@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Comapatible" content="IE=edge">
+	<meta name="description" content="Udacity Nanodegree, Frontend Web Developer, Mockup to Website, Anjali Nanda">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Anjali Nanda, Mockup to Website, Nanodegree</title>
+	<link rel="stylesheet" href="css/normalize.css"><!-- src="normalize..." so that website will work same across all the browsers -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel ="stylesheet" href="css/mystyle.css">
+	<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<header class="row">
+			<div class="col-md-6">
+				<img class="title-logo img-responsive logo" src="images/MyLogo.png" alt="Logo"/>
+			</div>
+			<div class="col-md-6 text-right text-uppercase">
+				 	<h1 class="text-thin">ANJALI NANDA</h1>	
+				 	<h4>FRONT-END NINJA</h4>
+			</div>	
+		</header>
+			<div class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>
+		<section class="row">
+			<div class="col-md-12">
+				<img class="img-responsive img-rounded center-block desktop" src ="images/centerimg.png"  alt="Image"/>
+				<img class="mobile img-responsive img-rounded center-block" src ="images/centerimgSmall1.png"  alt="Image"/>
+			</div>
+		</section>	
+		<section class="row">
+			<div class="col-md-12">
+				<h2 class="text-muted">Featured Work</h2>
+			</div>
+		</section>
+		<section class="row text-center">
+			<div class="col-md-4" >
+				<img class="img-responsive img-rounded img-thumbnail" src="http://placekitten.com/g/300" alt="Image" data-toggle="modal" data-target="#project1" />
+				<h3>My Resume</h3>
+			</div>
+			<div class="col-md-4" >
+				<img class="img-responsive img-rounded img-thumbnail" src="http://placekitten.com/g/300" alt="Image" data-toggle="modal" data-target="#project2" />
+				<h3>My Work</h3>
+			</div>
+			<div class="col-md-4">
+				<img class="img-responsive img-rounded img-thumbnail" src="http://placekitten.com/g/300" alt="Image" data-toggle="modal" data-target="#project3"/>
+				<h3>My Skills</h3>
+			</div>
+		</section>
+	</div>
+	<!-- Modal -->
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display:none;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Resume</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://placekitten.com/g/300">
+         This page would contain MyResume
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display:none;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Work</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://placekitten.com/g/300">
+         This page would contain details about MyWork
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display:none;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Skills</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://placekitten.com/g/300">
+         This page would talk about My Skills
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
