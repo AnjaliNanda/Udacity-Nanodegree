@@ -26,11 +26,21 @@ body {
 	.logo {
 		margin-top: 20px;
 	}
+	h1{
+		font-size: 30px;
+	}
+	h4{
+		font-size: 15px;
+	}
+	h2{
+		font-size: 25px;
+	}
 }
 @media only screen and (min-width: 993px){
 	header {
 		text-align: right;
-	}
+		}
+
 	.logo {
 		margin-top: 10px;
 	}
@@ -44,9 +54,9 @@ body {
 }
 @media only screen and (max-width: 480px) {
 	.desktop {
-		display: none }
+		display: none; }
 	.mobile {
-		display: block }
+		display: block; }
 }
 .text-muted {
 		color:#BCBBBB;
